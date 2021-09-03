@@ -12,7 +12,7 @@ abstract class SubscriberDatabase : RoomDatabase() {
 
     abstract val subscriberDAO : SubscriberDAO
 
-    //singletorn creation code part(boilerplate code)
+    //singleton creation code part(boilerplate code)
     companion object{
         @Volatile
         private var INSTANCE : SubscriberDatabase? = null
